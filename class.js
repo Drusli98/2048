@@ -24,7 +24,7 @@ export class Cell {
     tile.setXY(this.x, this.y);
     this.linkedTileForMerge = tile;
   }
-
+ // moin
   unlinkTileForMerge() {
     this.linkedTileForMerge = null; // Отвяжем тайл от ячейки // Trennen wir die Kachel von der Zelle
   }
